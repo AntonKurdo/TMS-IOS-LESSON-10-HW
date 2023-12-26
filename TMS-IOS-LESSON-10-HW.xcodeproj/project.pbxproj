@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		04711A862B3845440069118E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711A852B3845440069118E /* AppDelegate.swift */; };
 		04711A882B3845440069118E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711A872B3845440069118E /* SceneDelegate.swift */; };
-		04711A8A2B3845440069118E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711A892B3845440069118E /* ViewController.swift */; };
-		04711A8D2B3845440069118E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04711A8B2B3845440069118E /* Main.storyboard */; };
+		04711A8A2B3845440069118E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711A892B3845440069118E /* FirstViewController.swift */; };
 		04711A8F2B3845460069118E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04711A8E2B3845460069118E /* Assets.xcassets */; };
 		04711A922B3845460069118E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04711A902B3845460069118E /* LaunchScreen.storyboard */; };
+		04711A9C2B384A2B0069118E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711A9B2B384A2B0069118E /* SecondViewController.swift */; };
+		04711A9E2B384A530069118E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711A9D2B384A530069118E /* ThirdViewController.swift */; };
+		04711AA02B384AAE0069118E /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711A9F2B384AAE0069118E /* FourthViewController.swift */; };
+		04711AA22B384ADE0069118E /* FivesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711AA12B384ADE0069118E /* FivesViewController.swift */; };
+		04711AA52B3851440069118E /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711AA42B3851440069118E /* SixViewController.swift */; };
+		04711AAA2B3853640069118E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711AA92B3853640069118E /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04711A822B3845440069118E /* TMS-IOS-LESSON-10-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-10-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04711A852B3845440069118E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04711A872B3845440069118E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04711A892B3845440069118E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04711A8C2B3845440069118E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04711A892B3845440069118E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		04711A8E2B3845460069118E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04711A912B3845460069118E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04711A932B3845460069118E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04711A9B2B384A2B0069118E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		04711A9D2B384A530069118E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		04711A9F2B384AAE0069118E /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		04711AA12B384ADE0069118E /* FivesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivesViewController.swift; sourceTree = "<group>"; };
+		04711AA42B3851440069118E /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		04711AA92B3853640069118E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,36 @@
 		04711A842B3845440069118E /* TMS-IOS-LESSON-10-HW */ = {
 			isa = PBXGroup;
 			children = (
+				04711AA82B3853440069118E /* Classes */,
+				04711A9A2B3849870069118E /* ViewControllers */,
 				04711A852B3845440069118E /* AppDelegate.swift */,
 				04711A872B3845440069118E /* SceneDelegate.swift */,
-				04711A892B3845440069118E /* ViewController.swift */,
-				04711A8B2B3845440069118E /* Main.storyboard */,
 				04711A8E2B3845460069118E /* Assets.xcassets */,
 				04711A902B3845460069118E /* LaunchScreen.storyboard */,
 				04711A932B3845460069118E /* Info.plist */,
 			);
 			path = "TMS-IOS-LESSON-10-HW";
+			sourceTree = "<group>";
+		};
+		04711A9A2B3849870069118E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04711A892B3845440069118E /* FirstViewController.swift */,
+				04711A9B2B384A2B0069118E /* SecondViewController.swift */,
+				04711A9D2B384A530069118E /* ThirdViewController.swift */,
+				04711A9F2B384AAE0069118E /* FourthViewController.swift */,
+				04711AA12B384ADE0069118E /* FivesViewController.swift */,
+				04711AA42B3851440069118E /* SixViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04711AA82B3853440069118E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04711AA92B3853640069118E /* Test.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +158,6 @@
 			files = (
 				04711A922B3845460069118E /* LaunchScreen.storyboard in Resources */,
 				04711A8F2B3845460069118E /* Assets.xcassets in Resources */,
-				04711A8D2B3845440069118E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04711A8A2B3845440069118E /* ViewController.swift in Sources */,
+				04711AA02B384AAE0069118E /* FourthViewController.swift in Sources */,
+				04711A9C2B384A2B0069118E /* SecondViewController.swift in Sources */,
+				04711AAA2B3853640069118E /* Test.swift in Sources */,
+				04711AA22B384ADE0069118E /* FivesViewController.swift in Sources */,
+				04711A8A2B3845440069118E /* FirstViewController.swift in Sources */,
+				04711A9E2B384A530069118E /* ThirdViewController.swift in Sources */,
+				04711AA52B3851440069118E /* SixViewController.swift in Sources */,
 				04711A862B3845440069118E /* AppDelegate.swift in Sources */,
 				04711A882B3845440069118E /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +183,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04711A8B2B3845440069118E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04711A8C2B3845440069118E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04711A902B3845460069118E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +325,6 @@
 				INFOPLIST_FILE = "TMS-IOS-LESSON-10-HW/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +352,6 @@
 				INFOPLIST_FILE = "TMS-IOS-LESSON-10-HW/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
